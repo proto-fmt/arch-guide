@@ -12,7 +12,7 @@ pacman -Syu bash-completion man-db openvpn bat lsof tree
 
 
 # settings for compositor
-pacman -Syu sway swaybg wofi waybar alacritty
+pacman -Syu sway swaybg wofi waybar alacritty brightnessctl
 
 
 
