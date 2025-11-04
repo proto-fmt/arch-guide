@@ -15,4 +15,8 @@ pacman -Syu bash-completion man-db openvpn bat lsof tree
 pacman -Syu sway swaybg wofi waybar alacritty
 
 
+
+
+Cltr+p история вверх
+
 ```
