@@ -5,7 +5,7 @@ pacman -Syu mesa vulkan-radeon
 
 
 # base packets
-pacman -Syu bash-completion man-db openvpn bat lsof
+pacman -Syu bash-completion man-db openvpn bat lsof tree
 
 
 
