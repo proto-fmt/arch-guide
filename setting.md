@@ -5,7 +5,7 @@ pacman -Syu mesa vulkan-radeon
 
 
 # geneeral packets
-pacman -Syu bash-completion man-db openvpn bat 
+pacman -Syu bash-completion man-db openvpn bat lsof
 
 
 
