@@ -1,6 +1,6 @@
 ```bash
 # geneeral packets
-pacman -Syu bash-completion man-db
+pacman -Syu bash-completion man-db openvpn
 
 
 
