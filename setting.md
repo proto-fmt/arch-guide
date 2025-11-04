@@ -1,6 +1,6 @@
 ```bash
 # geneeral packets
-pacman -Syu bash-completion
+pacman -Syu bash-completion man-db
 
 
 
