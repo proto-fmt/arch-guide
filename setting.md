@@ -16,6 +16,11 @@ pacman -Syu sway swaybg wofi waybar alacritty brightnessctl
 
 
 
+# theme
+pacman -Syu ttf-firacode-nerd 
+
+
+
 
 Cltr+p история вверх
 
