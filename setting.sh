@@ -13,9 +13,12 @@ pacman -Syu --noconfirm\
   sway swaybg \ 
   wofi waybar \
   wl-clipboard \
-  alacritty ttf-firacode-nerd \
+  alacritty \
+  ttf-firacode-nerd ttf-jetbrains-mono-nerd \
   brightnessctl \
-   
+
+   # ttf-fira-code - used in alacritty
+   # ttf-jetbrains-mono-nerd - used in hyprland, waybar
 
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
