@@ -4,18 +4,24 @@ set -e
 
 pacman -Syu --noconfirm\
   ### Base packets
-  mesa vulkan-radeon \ # grafiks
+  mesa vulkan-radeon \ # grafics
   pipewire wireplumber pipewire-pulse \ # sound 
   bash-completion man-db openvpn bat lsof tree \
-  fzf
+  fzf \
 
-  # Wayland Sway
-  sway swaybg \ 
-  wofi waybar \
+  # Wayland Hypr
+  hyprland \ 
+  xdg-desktop-portal-hyprland \
+  hyprpolkitagent \
+  wofi \
+  waybar \
+  mako \
   wl-clipboard \
   alacritty \
-  ttf-firacode-nerd ttf-jetbrains-mono-nerd \
+  ttf-firacode-nerd ttf-jetbrains-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk \
+  # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
   brightnessctl \
+  pcmanfm \
 
    # ttf-fira-code - used in alacritty
    # ttf-jetbrains-mono-nerd - used in hyprland, waybar
