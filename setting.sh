@@ -7,12 +7,13 @@ pacman -Syu --noconfirm\
   mesa vulkan-radeon \ # grafics
   pipewire wireplumber pipewire-pulse \ # sound 
   bash-completion man-db openvpn bat lsof tree \
-  fzf \
+  fzf htop \
 
   # Wayland Hypr
   hyprland \ 
   xdg-desktop-portal-hyprland \
   hyprpolkitagent \
+  bluez bluez-utils blueman \
   wofi \
   waybar \
   mako \
@@ -28,3 +29,6 @@ pacman -Syu --noconfirm\
 
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
+
+# 
+sudo systemctl enable --now bluetooth
