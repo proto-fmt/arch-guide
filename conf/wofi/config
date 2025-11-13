@@ -1,0 +1,13 @@
+show=drun
+location=center
+width=33%
+columns=1
+prompt=Search...
+allow_images=true
+no_actions=true
+gtk_dark=true
+image_size=16
+layer=top
+line_wrap=word
+dymanic_lines=true
+single_click=true

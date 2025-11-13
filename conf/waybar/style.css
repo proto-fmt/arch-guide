@@ -1,0 +1,119 @@
+@define-color red    #cb0303;
+@define-color green  #228B22;
+
+#backlight-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#backlight-slider trough {
+    min-height: 10px;
+    min-width: 80px;
+    border-radius: 5px;
+    background-color: black;
+}
+#backlight-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+/* GENERALS */
+* {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-family: "JetbrainsMono Nerd Font Propo", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    animation: none;
+    transition: none;
+    box-shadow: none;
+}
+
+#waybar {
+    color: #bdc0c3;
+    background: #151719;
+    border-bottom: 1px solid #333;
+    
+    
+}
+
+tooltip{
+    background: #000;
+}
+
+
+
+
+
+#submap,
+#window,
+#network,
+#cpu,
+#temperature,
+#memory,
+#wireplumber,
+#language{
+    margin: 0px 3px 0px 0px;
+    padding: 0px 0;
+}
+
+#workspaces button {
+    color: #b8b8b8;
+    margin: 0px 5px 0px 0px;
+    padding: 0px 5px;
+}
+
+#workspaces button:hover,
+#workspaces button.active{
+    background: #404049;
+    color: #eeeeee;
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+#workspaces button.urgent {
+    background: @red;
+    color: #dddddd;
+}
+
+
+#submap{
+    background: @red;
+    font-weight: 700;
+    color: #eeeeee;
+    padding: 0px 5px;
+}
+
+
+#clock {
+   background: #404049;
+   padding: 0px 5px;
+    
+}
+
+#network{
+    color: @green; 
+}
+
+
+#cpu.critical,
+#memory.critical,
+#wireplumber.muted,
+#network.disabled,
+#network.disconnected,
+#temperature.critical {
+    color: @red;
+}
+
+
+#temperature{
+    padding-left: 3px
+}

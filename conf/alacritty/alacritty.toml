@@ -1,0 +1,64 @@
+[general]
+live_config_reload = true
+working_directory = "None"
+ipc_socket = true
+
+[env]
+#alacritty_test = "alacritty_test"
+
+[window]
+decorations = "None" 
+opacity = 1
+blur = false
+startup_mode = "Windowed"
+dynamic_title = false
+class ={ instance = "Alacritty", general = "Alacritty" }
+decorations_theme_variant = "Dark"
+padding = {x = 7, y = 7}
+dynamic_padding = false
+
+[font]
+size = 11.25
+normal = {family = "FiraCode Nerd Font Mono", style = "Regular"}
+bold = {family = "FiraCode Nerd Font Mono", style = "Bold"}
+italic = {family = "FiraCode Nerd Font Mono", style = "Italic"}
+bold_italic = {family = "FiraCode Nerd Font Mono", style = "Bold Italic"}
+offset = {x = 0, y = 0}
+
+[colors]
+[colors.primary]
+    foreground = "#f0f0f0"
+    background = "#222222"
+[colors.normal]
+    black   = "#4e5257"
+    red     = "#d22b2b"
+    green   = "#62bd5a"
+    yellow  = "#e6bd19"
+    blue    = "#2973bb"
+    magenta = "#b94498"
+    cyan    = "#4682b4"
+    white   = "#e4e4e7"
+[colors.bright]
+    black   = "#5c6671"
+    red     = "#f38ba8"
+    green   = "#58c94e"
+    yellow  = "#f9e2af"
+    blue    = "#89b4fa"
+    magenta = "#f5c2e7"
+    cyan    = "#7dcfff"
+    white   = "#f4f4f5"
+
+[terminal.shell]
+program = "/bin/bash"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style={shape = "Block", blinking = "Always"}
+vi_mode_style={shape = "Block", blinking = "Always"}
+blink_interval = 500
+blink_timeout = 0
+
+[mouse]
+hide_when_typing = false
