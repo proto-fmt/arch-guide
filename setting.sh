@@ -14,6 +14,7 @@ pacman -Syu --noconfirm\
   hyprland \ 
   xdg-desktop-portal-hyprland \
   hyprpolkitagent \
+  power-profiles-daemon \ # also used in waybar
   bluez bluez-utils blueman \
   wofi \
   waybar \
@@ -33,6 +34,7 @@ sudo systemctl --user enable --now pipewire wireplumber
 
 # 
 sudo systemctl enable --now bluetooth
+sudo systemctl enable --now power-profiles-daemon
 
 
 sudo sensors-detect --auto
