@@ -8,6 +8,7 @@ pacman -Syu --noconfirm\
   pipewire wireplumber pipewire-pulse \ # sound 
   bash-completion man-db openvpn bat lsof tree \
   fzf htop \
+  lm_sensors \ 
 
   # Wayland Hypr
   hyprland \ 
@@ -32,3 +33,6 @@ sudo systemctl --user enable --now pipewire wireplumber
 
 # 
 sudo systemctl enable --now bluetooth
+
+
+sudo sensors-detect --auto
