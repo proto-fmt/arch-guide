@@ -65,8 +65,8 @@ sudo nano /etc/auto-cpufreq/hook-brightness.sh
 sudo chmod +x /etc/auto-cpufreq/hook-brightness.sh
 # теперь яркост ь должна менятся при смене питания
 
-
-sudo systemctl enable --now auto-cpufreq
+# install daemon
+sudo auto-cpufreq --install
 #### end install auto-cpufreq
 
 
