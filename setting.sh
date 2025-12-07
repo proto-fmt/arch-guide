@@ -61,6 +61,9 @@ sudo nvim /etc/auto-cpufreq.conf
 # также добавим хук для смены яркости при смене питания
 # Создаём файл хука
 sudo nano /etc/auto-cpufreq/hook-brightness.sh
+# конфиг в /etc/
+sudo chmod +x /etc/auto-cpufreq/hook-brightness.sh
+# теперь яркост ь должна менятся при смене питания
 
 
 sudo systemctl enable --now auto-cpufreq
