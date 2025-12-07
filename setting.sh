@@ -45,7 +45,20 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-# install auto-cpufreq
+##### install auto-cpufreq
+#
+paru -S auto-cpufreq
+# 2. Проверяем доступные governors
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+# Пример: conservative ondemand userspace powersave performance schedutil
+# 3. Проверяем частоты
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+# Пример: 1400000 1700000 3000000 (1.4, 1.7, 3.0 GHz)
 
+sudo nvim /etc/auto-cpufreq.conf
+
+
+sudo systemctl enable --now auto-cpufreq
+#### end install auto-cpufreq
 
 
