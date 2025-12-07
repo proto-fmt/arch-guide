@@ -56,6 +56,11 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
 # Пример: 1400000 1700000 3000000 (1.4, 1.7, 3.0 GHz)
 
 sudo nvim /etc/auto-cpufreq.conf
+# конфиг из /etc/auto-cpufreq.conf
+
+# также добавим хук для смены яркости при смене питания
+# Создаём файл хука
+sudo nano /etc/auto-cpufreq/hook-brightness.sh
 
 
 sudo systemctl enable --now auto-cpufreq
