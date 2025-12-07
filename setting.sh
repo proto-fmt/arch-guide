@@ -1,3 +1,5 @@
+### this markdown consist packets for installing in my system
+
 #!/bin/bash
 
 set -e
@@ -14,7 +16,7 @@ pacman -Syu --noconfirm\
   hyprland \ 
   xdg-desktop-portal-hyprland \
   hyprpolkitagent \
-  power-profiles-daemon \ # also used in waybar
+  # power-profiles-daemon \ change on auto-cpufreq + script brighest
   bluez bluez-utils blueman \
   wofi \
   waybar \
@@ -34,7 +36,16 @@ sudo systemctl --user enable --now pipewire wireplumber
 
 # 
 sudo systemctl enable --now bluetooth
-sudo systemctl enable --now power-profiles-daemon
-
 
 sudo sensors-detect --auto
+
+# paru install
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+
+# install auto-cpufreq
+
+
+
