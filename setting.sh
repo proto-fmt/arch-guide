@@ -31,6 +31,11 @@ pacman -Syu --noconfirm\
    # ttf-fira-code - used in alacritty
    # ttf-jetbrains-mono-nerd - used in hyprland, waybar
 
+
+
+   #another 
+   perl-image-exiftool mat2 \ # remove meta photo and files
+
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
 
