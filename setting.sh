@@ -28,7 +28,7 @@ pacman -Syu --noconfirm\
   brightnessctl \
   pcmanfm \
 
-   # ttf-fira-code - used in alacritty
+   # ttf-fira-code - used in alacritty, wofi
    # ttf-jetbrains-mono-nerd - used in hyprland, waybar
 
 
