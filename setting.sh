@@ -23,6 +23,7 @@ pacman -Syu --noconfirm\
   mako \
   wl-clipboard \
   alacritty \
+  ttf-ubuntu-mono-nerd \ # замена fira code
   ttf-firacode-nerd ttf-jetbrains-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk \
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
   brightnessctl \
