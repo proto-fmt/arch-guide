@@ -23,13 +23,15 @@ pacman -Syu --noconfirm\
   mako \
   wl-clipboard \
   alacritty \
-  ttf-ubuntu-mono-nerd \ # замена fira code
-  ttf-firacode-nerd ttf-jetbrains-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk \
+  ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono)
+  ttf-jetbrains-mono-nerd \
+  noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
+  gnu-free-fonts \
+  
   brightnessctl \
   pcmanfm \
 
-   # ttf-fira-code - used in alacritty, wofi
    # ttf-jetbrains-mono-nerd - used in hyprland, waybar
 
 
