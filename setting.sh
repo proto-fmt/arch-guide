@@ -21,6 +21,7 @@ pacman -Syu --noconfirm\
   wofi \
   waybar \
   mako \
+  swayosd \ # OSD window for volume, brigtness
   wl-clipboard \
   alacritty \
   ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono)
