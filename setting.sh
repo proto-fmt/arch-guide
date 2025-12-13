@@ -26,9 +26,12 @@ pacman -Syu --noconfirm\
   alacritty \
   ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono)
   ttf-jetbrains-mono-nerd \
+  ttf-liberation \ # Arial, Times New Roman, and Courier New
   noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
-  gnu-free-fonts \
+
+  materia-gtk-theme \ # GTK 2 / 3 /4 
+
   
   brightnessctl \
   pcmanfm \
