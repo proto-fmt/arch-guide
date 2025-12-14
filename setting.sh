@@ -30,8 +30,8 @@ pacman -Syu --noconfirm\
   noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
 
-  materia-gtk-theme \ # GTK 2 / 3 /4 
-
+  paru -S arc-gtk-theme \ # GTK 2 / 3 /4 ("Noto Sans")
+  papirus-icon-theme \ 
   
   brightnessctl \
   pcmanfm \
