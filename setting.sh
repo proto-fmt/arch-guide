@@ -25,7 +25,7 @@ pacman -Syu --noconfirm\
   wl-clipboard \
   alacritty \
   ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono)
-  ttf-jetbrains-mono-nerd \
+  ttf-jetbrains-mono-nerd \ # hyprland (JetBrainsMono Nerd Font ),  waybar
   ttf-liberation \ # Arial, Times New Roman, and Courier New
   noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
@@ -36,10 +36,7 @@ pacman -Syu --noconfirm\
   brightnessctl \
   pcmanfm \
 
-   # ttf-jetbrains-mono-nerd - used in hyprland, waybar
-
-
-
+  
    #another 
    perl-image-exiftool mat2 \ # remove meta photo and files
 
