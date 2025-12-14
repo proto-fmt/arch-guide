@@ -1,16 +1,21 @@
-#!/bin/bash
-
-# Применяем настройки через gsettings
+# Устанавливаем шрифты
 gsettings set org.gnome.desktop.interface font-name 'Noto Sans 11'
 gsettings set org.gnome.desktop.interface monospace-font-name 'Noto Sans Mono 11'
 gsettings set org.gnome.desktop.interface document-font-name 'Noto Sans 12'
+
+# Устанавливаем рендеринг шрифтов
+gsettings set org.gnome.desktop.interface font-antialiasing 'grayscale'
+gsettings set org.gnome.desktop.interface font-hinting 'slight'
+gsettings set org.gnome.desktop.interface font-rgba-order 'rgb'
+
+# Темная тема
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Materia-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-gsettings set org.gnome.desktop.interface overlay-scrolling false
+
+# Отключаем анимации и горячие углы (опционально)
 gsettings set org.gnome.desktop.interface enable-animations false
+gsettings set org.gnome.desktop.interface enable-hot-corners false
 
-# Обновляем кэш тем
-sudo gtk-update-icon-cache -f /usr/share/icons/Papirus-Dark/ 2>/dev/null || true
-
-echo "GTK настройки применены!"
+# Настраиваем скроллбары
+gsettings set org.gnome.desktop.interface overlay-scrolling false
