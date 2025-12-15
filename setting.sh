@@ -18,16 +18,16 @@ pacman -Syu --noconfirm\
   hyprpolkitagent \
   tlp \
   bluez bluez-utils blueman \
-  fuzzel \ # (UbuntuMono Nerd Font Mono) 13.5
+  fuzzel \ # (UbuntuMono Nerd Font Mono) 14
   waybar \
-  mako \
+  mako \ # (JetBrainsMono Nerd Font Propo) 12
   swayosd \ # OSD window for volume, brigtness
   wl-clipboard \
   alacritty \
   ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono) 13.5
   ttf-jetbrains-mono-nerd \ # hyprland (JetBrainsMono Nerd Font ),  waybar
   ttf-liberation \ # Arial, Times New Roman, and Courier New
-  noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
+  noto-fonts noto-fonts-emoji noto-fonts-cjk \ 
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
 
   paru -S arc-gtk-theme \ # GTK 2 / 3 /4 ("Noto Sans")
