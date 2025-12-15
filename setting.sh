@@ -18,13 +18,13 @@ pacman -Syu --noconfirm\
   hyprpolkitagent \
   tlp \
   bluez bluez-utils blueman \
-  fuzzel \
+  fuzzel \ # (UbuntuMono Nerd Font Mono) 13.5
   waybar \
   mako \
   swayosd \ # OSD window for volume, brigtness
   wl-clipboard \
   alacritty \
-  ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono)
+  ttf-ubuntu-mono-nerd \ # alacritty (UbuntuMono Nerd Font Mono) 13.5
   ttf-jetbrains-mono-nerd \ # hyprland (JetBrainsMono Nerd Font ),  waybar
   ttf-liberation \ # Arial, Times New Roman, and Courier New
   noto-fonts noto-fonts-emoji noto-fonts-cjk \ # wofi ("Noto Sans")
