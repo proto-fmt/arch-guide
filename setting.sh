@@ -18,7 +18,7 @@ pacman -Syu --noconfirm\
   hyprpolkitagent \
   tlp \
   bluez bluez-utils blueman \
-  wofi \
+  fuzzel \
   waybar \
   mako \
   swayosd \ # OSD window for volume, brigtness
