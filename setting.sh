@@ -34,7 +34,7 @@ pacman -Syu --noconfirm\
   papirus-icon-theme \ 
   
   brightnessctl \
-  pcmanfm \
+  pcmanfm file-roller \
 
   
    #another 
