@@ -34,7 +34,9 @@ pacman -Syu --noconfirm\
   papirus-icon-theme \ 
   
   brightnessctl \
-  pcmanfm file-roller \
+
+  # form yazi instruction
+  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick \ #pcmanfm changed on yazi
 
   
    #another 
