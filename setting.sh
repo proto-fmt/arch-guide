@@ -8,7 +8,9 @@ pacman -Syu --noconfirm\
   ### Base packets
   mesa vulkan-radeon \ # grafics
   pipewire wireplumber pipewire-pulse \ # sound 
-  bash-completion man-db openvpn bat lsof tree \
+  bash-completion man-db tldr \
+  openvpn \
+  bat lsof tree \
   fzf htop \
   lm_sensors \ 
 
