@@ -41,6 +41,7 @@ pacman -Syu --noconfirm\
   
    #another 
    perl-image-exiftool mat2 \ # remove meta photo and files
+   inetutils nmap
 
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
