@@ -43,7 +43,7 @@ pacman -Syu --noconfirm\
   
    #another 
    perl-image-exiftool mat2 \ # remove meta photo and files
-   traceroute inetutils nmap openbsd-netcat whois bind \
+   traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
 
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
