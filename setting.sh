@@ -62,6 +62,9 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
+# fot ssh access on github
+ssh-keygen -t ed25519 # генериуем открытый и закрытый ключ
+# в bashrc запускаем ssh-agent и добавляем ключ
 
 
 
