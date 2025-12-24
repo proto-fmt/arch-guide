@@ -43,6 +43,7 @@ pacman -Syu --noconfirm\
   
    #another 
    perl-image-exiftool mat2 \ # remove meta photo and files
+   openssh \ # ssh
    traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
 
 # от пользователя sudo
