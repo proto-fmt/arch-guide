@@ -49,7 +49,7 @@ pacman -Syu --noconfirm\
    # add black arrch repo
    burpsuite \
    john \ # John the Ripper
-   hash-identifier \ 
+   hash-identifier haiti \ # this line it is hash identifers
    
 
 # от пользователя sudo
