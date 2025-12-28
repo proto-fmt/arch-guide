@@ -44,7 +44,13 @@ pacman -Syu --noconfirm\
    #another 
    perl-image-exiftool mat2 \ # remove meta photo and files
    openssh \ # ssh
-   traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
+   wireshark-qt traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
+
+   # add black arrch repo
+   burpsuite \
+   john \ # John the Ripper
+   hash-identifier \ 
+   
 
 # от пользователя sudo
 sudo systemctl --user enable --now pipewire wireplumber
