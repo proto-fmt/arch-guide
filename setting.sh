@@ -50,6 +50,7 @@ pacman -Syu --noconfirm\
    burpsuite \
    john \ # John the Ripper
    hash-identifier haiti \ # this line it is hash identifers
+   seclists \
    
 
 # от пользователя sudo
