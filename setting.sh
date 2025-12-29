@@ -51,6 +51,7 @@ pacman -Syu --noconfirm\
    john \ # John the Ripper
    hash-identifier haiti \ # this line it is hash identifers
    seclists \
+   openvas \
    
 
 # от пользователя sudo
