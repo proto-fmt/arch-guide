@@ -34,6 +34,7 @@ pacman -Syu --noconfirm\
 
   paru -S arc-gtk-theme \ # GTK 2 / 3 /4 ("Noto Sans")
   papirus-icon-theme \ 
+  vscodium-bin \
   
   brightnessctl \
 
