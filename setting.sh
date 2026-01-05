@@ -13,6 +13,7 @@ pacman -Syu --noconfirm\
   bat lsof tree \
   fzf htop \
   lm_sensors \ 
+  tmux \
 
   # Wayland Hypr
   hyprland \ 
