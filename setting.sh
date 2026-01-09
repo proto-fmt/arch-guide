@@ -14,7 +14,7 @@ pacman -Syu --noconfirm\
   fzf htop \
   lm_sensors \ 
   tmux \
-  virtualboox virtualbox-host-modules-arch \
+  virtualbox virtualbox-host-modules-arch \
 
   # Wayland Hypr
   hyprland \ 
