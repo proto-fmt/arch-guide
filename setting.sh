@@ -20,7 +20,7 @@ pacman -Syu --noconfirm\
   hyprland \ 
   xdg-desktop-portal-hyprland \
   hyprpolkitagent \
-  tlp tlp-pd \
+  tlp tlp-pd \ # tlp-pd support d-bus and used on waybar in role 'power-profiles-daemon'
   bluez bluez-utils blueman \
   fuzzel \ # (UbuntuMono Nerd Font Mono) 14
   waybar \
@@ -64,7 +64,10 @@ sudo systemctl --user enable --now pipewire wireplumber
 # 
 sudo systemctl enable --now bluetooth
 
-sudo systemctl enable --now tlp
+sudo systemctl enable --now tlp tlp-pd
+sudo systemctl mask systemd-rfkill.service
+sudo systemctl mask systemd-rfkill.socket 
+# 2 string above tlp can auto on and auto off radio modules via bluetooth, wifi and another
 
 sudo sensors-detect --auto
 
