@@ -20,7 +20,7 @@ pacman -Syu --noconfirm\
   hyprland \ 
   xdg-desktop-portal-hyprland \
   hyprpolkitagent \
-  tlp \
+  tlp tlp-pd \
   bluez bluez-utils blueman \
   fuzzel \ # (UbuntuMono Nerd Font Mono) 14
   waybar \
