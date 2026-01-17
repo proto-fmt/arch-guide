@@ -16,7 +16,7 @@ pacman -Syu --noconfirm\
   tmux \
   virtualbox virtualbox-host-modules-arch \
   remmina freerdp \
-  wget \
+  wget curl \
 
   # Wayland Hypr
   hyprland \ 
