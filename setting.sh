@@ -35,6 +35,7 @@ pacman -Syu --noconfirm\
   ttf-liberation \ # Arial, Times New Roman, and Courier New
   noto-fonts noto-fonts-emoji noto-fonts-cjk \ 
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
+  qt5-wayland qt6-wayland
 
   paru -S arc-gtk-theme \ # GTK 2 / 3 /4 ("Noto Sans")
   papirus-icon-theme \ 
