@@ -15,7 +15,7 @@ pacman -Syu --noconfirm\
   lm_sensors \ 
   tmux \
   virtualbox virtualbox-host-modules-arch \
-  remmina freerdp \
+  remmina freerdp libvncserver \
   wget curl \
 
   # Wayland Hypr
