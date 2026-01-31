@@ -17,6 +17,7 @@ pacman -Syu --noconfirm\
   virtualbox virtualbox-host-modules-arch \
   remmina freerdp libvncserver \
   wget curl \
+  docker \ 
 
   # Wayland Hypr
   hyprland \ 
@@ -65,8 +66,9 @@ pacman -Syu --noconfirm\
    openvas \
    
 
-# от пользователя sudo
-sudo systemctl --user enable --now pipewire wireplumber
+
+systemctl --user enable --now pipewire wireplumber
+sudo systemctl enable --now docker.socket
 
 # 
 sudo systemctl enable --now bluetooth
