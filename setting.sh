@@ -69,6 +69,7 @@ pacman -Syu --noconfirm\
 
 systemctl --user enable --now pipewire wireplumber
 sudo systemctl enable --now docker.socket
+sudo usermod -aG docker $USER
 
 # 
 sudo systemctl enable --now bluetooth
