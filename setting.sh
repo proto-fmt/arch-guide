@@ -17,7 +17,8 @@ pacman -Syu --noconfirm\
   virtualbox virtualbox-host-modules-arch \
   remmina freerdp libvncserver \
   wget curl \
-  docker \ 
+  docker \
+  rsync \
 
   # Wayland Hypr
   hyprland \ 
