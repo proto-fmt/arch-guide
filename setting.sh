@@ -57,6 +57,7 @@ pacman -Syu --noconfirm\
    openssh \ # ssh
    wireshark-qt traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
    wpscan \
+   nikto \
 
    ###  sudo usermod -aG wireshark $USER
 
