@@ -56,6 +56,7 @@ pacman -Syu --noconfirm\
    perl-image-exiftool mat2 \ # remove meta photo and files
    openssh \ # ssh
    wireshark-qt traceroute inetutils nmap openbsd-netcat whois bind tcpdump \
+   wpscan \
 
    ###  sudo usermod -aG wireshark $USER
 
