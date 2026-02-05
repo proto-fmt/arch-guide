@@ -19,6 +19,7 @@ pacman -Syu --noconfirm\
   wget curl \
   docker \
   rsync \
+  poppler \ # pdfinfo
 
   # Wayland Hypr
   hyprland \ 
@@ -39,7 +40,7 @@ pacman -Syu --noconfirm\
   # noto-fonts-cjk - для иероглифов, китайского, японского прочего языков
   qt5-wayland qt6-wayland
   sqlmap \
-  exploitdb
+  exploitdb \ #searchsploit
 
   paru -S arc-gtk-theme \ # GTK 2 / 3 /4 ("Noto Sans")
   papirus-icon-theme \ 
