@@ -20,6 +20,7 @@ pacman -Syu --noconfirm\
   docker \
   rsync \
   poppler \ # pdfinfo
+  hydra \
 
   # Wayland Hypr
   hyprland \ 
